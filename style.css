@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+/* <!-- ==================================
+First page start
+================================== --> */
+.font-part h1{
+    width: 450px;
+    left: 50%;
+    margin-left: 100px;
+    /* font-size: 35px; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700; 
+    
+}
+.container{
+    width:100%;
+    height: 700px; 
+    background: url(/images/donation13.jpg);
+    background-size: cover;
+    position: relative;
+}
+.container .font-part{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.font-part a{
+position: absolute;
+text-decoration: none;
+color: white;
+background:red;
+padding: 10px;
+margin-top: 10px;
+left: 40%;
+text-align: center;
+}
+/* <!-- ==================================
+    First page end
+ ================================== --> */
+
+ /* <!-- ==================================
+ Donate today page start
+ ================================== --> */
+.container-two{
+    width: 100%;
+    height: 600px;
+    
+}
+.container-two .text-area{
+    text-align: center;
+    padding-top: 100px;
+}
+.container-two .text-area h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;   
+}
+
+.donate-area ul{
+    display: flex;
+    list-style: none;
+    margin-left: 35%;
+    margin-top: 20px;   
+} 
+ul li{
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: rgb(248, 243, 243);
+}
+ul .scelect{
+    text-align: center;
+    padding: 20px 10px;
+    border:2px red solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: rgb(245, 228, 228);
+    
+}
+.text-area form input{
+    margin-top: 30px;
+    width: 40%;
+    height: 30px;
+    border-style: none;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+.batton a{
+    position: absolute;
+text-decoration: none;
+    color: white;
+    background:red;
+    padding: 10px;
+    margin-top: 10px;
+    left: 45%;
+    text-align: center;
+}
+
+/* <!-- ==================================
+   Donate today page end
+================================== --> */
+
+/* <!-- ==================================
+   Our Donate Plan start
+================================== --> */
+.container-donateplan{
+    text-align: center;
+    height: 600px;
+}
+.container-donateplan h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;  
+}
+.container-donateplan .paragraph{
+width: 45%;
+margin-left: 30%;
+}
+.container-donateplan p{
+    color: rgb(104, 100, 100);
+    margin: 20px auto;
+    line-height: 30px;
+}
+.container-donateplan .family{
+    text-align: center;
+    
+}
+
+.container-donateplan .food{
+    text-align: left;
+    width: 25%;
+    height: 200px;
+    float: left;
+    background: #edf5f6;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 20px 10px;
+}
+.container-donateplan .shelter{
+    text-align: left;
+    width: 25%;
+    height: 200px;
+    float: left;
+    background: #ffeeee;
+    margin: 10px;
+    margin-top: 40px;
+    padding: 20px 10px;
+}
+.container-donateplan .education{
+    text-align: left;
+    width: 25%;
+    height: 200px;
+    float: left;
+    background: #fff4d5;
+    margin: 10px;
+    margin-top: 40px;
+    padding: 20px 10px;
+}
+/* <!-- ==================================
+   Our Donate Plan end
+================================== --> */
+/* <!-- ==================================
+        how two contribute part start
+     ================================== --> */
+.contribute{
+    width: 100%;
+}     
+.contribute .first_text{
+    
+    height:300px;
+    margin: 40px 130px;
+}
+.contribute .first_text img{
+    width: 45%;
+    height: 260px;
+    float: left;
+    margin: 10px 20px;
+}
+.contribute .first_text .text-area{
+    width: 45%;
+    height: 260px;
+    float: left;
+    margin: 10px 20px;
+} 
+.first_text .text-area h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.contribute .first_text h3{
+    font-size: 15px;
+    color: #fff;
+    background: red;
+    padding: 10px;
+    width: 140px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.contribute .first_text .text-area p{
+    margin-top: 20px;
+}
+/* <!-- ==================================
+     how two contribute part end 
+   ================================== --> */
+   /* ==================================
+   section part start
+================================== */
+
+.section{
+    width: 100%;
+    height: 400px;
+}
+.section .text{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    height: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.section .text p{
+    color: rgb(104, 100, 100);
+    font-size: 15px;
+}
+section .section{
+    text-align: center;
+}
+section .section form{
+    padding: 50px 200px;
+    text-align: center;
+    background: #fff4d5;
+    display: inline-block;
+}
+
+.section .form input{
+    color: rgb(170, 159, 159);
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-left: 100px;
+    float: left;
+    padding: 12px 100px 12px 10px;
+    background: rgb(217, 217, 217);
+     border-style: none;
+    
+}
+.section .form button {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    float: left;
+    width: 200px;
+    padding: 12px 30px;
+    background: rgb(255, 89, 89);
+    border-style: none;
+}
+   
+/* ==================================
+section part end
+================================== */
+
+   /* <!-- ==================================
+   Footer part start
+================================== --> */
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: black;
+
+}
+
+.footer{
+    padding-top: 70px;
+}
+.footer h2{
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    color: #ff5959;
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
+}
+.footer p{
+    text-align: center;
+    color: darkgray;
+}
+    
+/*<!-- ==================================
+   Footer part end
+================================== --> */ 
